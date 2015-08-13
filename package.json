@@ -1,0 +1,31 @@
+{
+  "name": "laravel-elixir-rjs",
+  "version": "1.0.0",
+  "description": "Optimize your main file with Laravel Elixir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Gómez <code@gerardo.im>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^3.0.6",
+    "laravel-elixir": "3.*",
+    "lodash": "^3.10.1",
+    "requirejs": "^2.1.20",
+    "through2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruysu/laravel-elixir-rjs"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "requirejs",
+    "rjs",
+    "laravel-elixir-requirejs",
+    "laravel-elixir-rjs"
+  ]
+}
