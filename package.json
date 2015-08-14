@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-rjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Optimize your main file with Laravel Elixir",
   "main": "index.js",
   "scripts": {
