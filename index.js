@@ -89,11 +89,11 @@ Elixir.extend('rjs', function(main, baseDir, outputDir, options) {
             name: paths.src.name.replace(new RegExp(paths.src.extension + '$'), '')
         }, options);
 
-        gulp.src(paths.src.path)
+        return gulp.src(paths.src.path)
             .pipe(optimize(optimizeOptions))
             .pipe(gulp.dest(paths.output.path))
             .pipe(new Elixir.Notification().message('Optimized!'));
-    })
+    });
 
     // if a watch path was provided
     if (watch) {
